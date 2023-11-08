@@ -1,6 +1,6 @@
 # Shopkeepers Search
 
-> This is my first Minecraft plugin, so it's probably poorly written, but it works
+> This is my first Minecraft plugin, so it's probably poorly written, but it works :fire:
 
 ## Usage
  
