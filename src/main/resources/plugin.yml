@@ -1,0 +1,8 @@
+name: ShopkeeperSearch
+version: '${project.version}'
+main: me.duro.shopkeepersearch.ShopkeeperSearch
+api-version: '1.20'
+commands:
+  sks:
+    description: "Search nearby shopkeepers for items"
+    usage: "/sks [item] (flags)"
