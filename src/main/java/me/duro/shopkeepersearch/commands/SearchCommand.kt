@@ -109,18 +109,18 @@ class SearchCommand : CommandExecutor, TabExecutor {
 
                 val entities = shopkeeper.location!!.getNearbyEntities(0.5, 0.5, 0.5)
 
-                entities.forEach { e ->
+                entities.forEach {
                     if (isStocked) {
-                        stockedTeam.addEntry(e.uniqueId.toString())
+                        stockedTeam.addEntry(it.uniqueId.toString())
                     } else {
-                        notStockedTeam.addEntry(e.uniqueId.toString())
+                        notStockedTeam.addEntry(it.uniqueId.toString())
                     }
 
-                    e.isGlowing = true
+                    it.isGlowing = true
                 }
 
                 Bukkit.getScheduler().runTaskLater(ShopkeeperSearch.instance, Runnable {
-                    entities.forEach { e -> e.isGlowing = false }
+                    entities.forEach { it.isGlowing = false }
                 }, 200)
             }
 
