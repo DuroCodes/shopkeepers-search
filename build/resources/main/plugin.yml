@@ -1,9 +1,0 @@
-name: ShopkeeperSearch
-version: '1.1-SNAPSHOT'
-main: me.duro.shopkeepersearch.ShopkeeperSearch
-api-version: '1.21'
-depend: [ Shopkeepers ]
-commands:
-  sks:
-    description: "Shop nearby shopkeepers for items"
-    usage: "/sks <item> (flags)"
