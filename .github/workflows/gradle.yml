@@ -35,8 +35,7 @@ jobs:
         id: create_release
         uses: softprops/action-gh-release@v1
         with:
-          files: |
-            target/shopkeeper-search-1.1-SNAPSHOT.jar
+          files: build/libs/shopkeeper-search-1.1-SNAPSHOT.jar
           name: Release
           tag_name: 1.1
         env:
