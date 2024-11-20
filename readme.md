@@ -1,7 +1,5 @@
-# Shopkeepers Search
+# Shopkeeper Search
 
-> This is my first Minecraft plugin, so it's probably poorly written, but it works :fire:
->
 > Now with 1.21 support!
 
 ## Usage
