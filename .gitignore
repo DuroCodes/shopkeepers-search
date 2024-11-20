@@ -1,0 +1,55 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Kotlin
+*.kotlin_metadata
+
+# Android Studio
+*.apk
+*.ap_ 
+*.dex
+*.class
+*.log
+
+# Gradle Wrapper
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Java
+*.class
+*.log
+
+# Local configuration files
+local.properties
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Maven
+mvnw
+mvnw.cmd
+pom.xml
+
+# Gradle
+*.gradle
+*.gradle.kts
+
+# JetBrains Rider
+.idea/
+
+# Logs
+*.log
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# JUnit output
+test-outputs/
