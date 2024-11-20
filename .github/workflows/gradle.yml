@@ -29,10 +29,6 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
-      # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
-      - name: Update dependency graph
-        uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582
-
       - name: Create Release
         id: create_release
         uses: softprops/action-gh-release@v1
