@@ -37,6 +37,6 @@ jobs:
         with:
           files: build/libs/*
           name: Release
-          tag_name: 1.1
+          tag_name: 1.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
